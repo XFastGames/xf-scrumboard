@@ -95,7 +95,7 @@ public class VerificationManagementService implements VerificationManagementServ
             props.put("mail.smtp.port", 587);
             props.put("mail.smtp.auth", true);
             props.put("mail.smtp.starttls.enable", true);
-            MyAuthenticator myPA = new MyAuthenticator("rnadhisha4@gmail.com", "Fuckingpussy"); // see MyAuthenticator class
+            MyAuthenticator myPA = new MyAuthenticator("", ""); // see MyAuthenticator class
             Session session = Session.getInstance(props, myPA);
             Message msg = new MimeMessage(session);
             msg.setFrom(new InternetAddress("rnadhisha4@gmail.com"));
